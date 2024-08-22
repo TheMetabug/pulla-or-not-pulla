@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.05) 0%, rgba(128, 128, 128, 0.05) 20%, transparent 20%, transparent 80%, rgba(128, 128, 128, 0.05) 80%, rgba(128, 128, 128, 0.05) 100%);
+    background-size: 50px 50px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#video-webcamera {
+    width: 265px;
+    height: 265px;
+    border-radius: 5%;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-title,
+#text-info,
+#text-result {
+    text-align: center;
+    margin-bottom: 25px;
+}
+  
+#btn-start {
+    height: 60px;
+    border-radius: 5%;
+    border: 3px solid rgb(10, 54, 21);
+    padding: 5px 15px 5px 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.gray-block {
+    width: 265px;
+    height: 265px;
+    border-radius: 5%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-block:before {
+    content: '\2715';
+    font-size: 50px;
+    color: white;
+}
